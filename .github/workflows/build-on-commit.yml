@@ -40,7 +40,7 @@ jobs:
     - name: Update version
       uses: brettdorrans/write-version-to-file@master
       with:
-        filename: '/VERSION'
+        filename: 'VERSION'
         placeholder: '{{version}}'
     -
       name: Set up QEMU need for cross-platform building
